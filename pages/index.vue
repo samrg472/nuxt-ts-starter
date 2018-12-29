@@ -56,10 +56,12 @@
 import Logo from '~/components/Logo.vue';
 import VuetifyLogo from '~/components/VuetifyLogo.vue';
 import { Vue, Component } from 'nuxt-property-decorator';
+import { Middleware } from '~/src/middleware';
 
 @Component({
   components: { Logo, VuetifyLogo }
 })
+@Middleware('hit')
 export default class extends Vue {
   head() {
     return {
