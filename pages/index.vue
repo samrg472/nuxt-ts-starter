@@ -61,6 +61,10 @@ import { Vue, Component } from 'nuxt-property-decorator';
   components: { Logo, VuetifyLogo }
 })
 export default class extends Vue {
+  head() {
+    return {
+      title: 'Home - Nuxt Demo'
+    }
+  }
 }
-
 </script>

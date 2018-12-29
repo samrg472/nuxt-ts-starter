@@ -30,7 +30,7 @@ async function start() {
         promise.then(resolve).catch(reject);
       });
     });
-  })
+  });
 
   app.listen(port, host);
   consola.ready({

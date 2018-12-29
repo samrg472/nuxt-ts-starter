@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-test",
+  "name": "nuxt-typescript-starter",
   "version": "1.0.0",
-  "description": "My glorious Nuxt.js project",
-  "author": "samrg472",
+  "description": "Nuxt.js + Koa + Typescript + Vuetify starter",
+  "author": "Samuel Grenier <samrg472@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon -e ts --watch server --exec 'ts-node --files -P tsconfig.server.json server/index.ts'",

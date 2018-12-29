@@ -7,6 +7,6 @@ export default function () {
       options: {
         appendTsSuffixTo: [/\.vue$/]
       }
-    })
-  })
+    });
+  });
 }
