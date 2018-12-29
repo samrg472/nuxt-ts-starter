@@ -8,5 +8,7 @@ export default function () {
         appendTsSuffixTo: [/\.vue$/]
       }
     });
+
+    config.resolve.extensions.push('.ts');
   });
 }
