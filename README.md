@@ -9,7 +9,7 @@ This template is intended for full Typescript use.
 
 `ts-node` is used for the server side, see the package.json for the start
 scripts. A `typescript` module is utilized for the client side. Add an entry
-tothe modules array with `~/modules/typescript`.
+to the modules array with `~/modules/typescript`.
 
 Dependencies required:
 
